@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100hv;
+}
+
+/* Card Style */
+
+#container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 90% 90% 90% 90% 90%;
+  grid-gap: 1px;
+
+}
+
+#btn {
+  border: none;
+  background-color: pink;
+  padding: 1%;
+}
